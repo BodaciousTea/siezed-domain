@@ -2,24 +2,25 @@
 <html>
 <head>
 <style>
-html, body, #wrapper {
-       height:100%;
-       width: 100%;
-       margin: 0;
-       padding: 0;
-       border: 0;
-    }
-    #wrapper td {
-       vertical-align: middle;
-       text-align: center;
-    }
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+}
+
+img {
+    max-width: 100%; 
+    max-height: 100vh; 
+    object-fit: cover; 
+}
 </style>
 </head>
 <body>
-   <table id="wrapper">
-      <tr>
-         <td><img src="siezed.jpg" alt="" /></td>
-      </tr>
-   </table>
+    <img src="siezed.jpg" alt="" />
 </body>
 </html>
