@@ -1,0 +1,11 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+gls.cap-cloud.co	TRUE	/	FALSE	1999999999	globalidtemp	be56305b-91b1-410f-808f-7f5c645a3d55
+.trendndaily.com	TRUE	/	FALSE	1999999999	leadgenuid	7db2b335-4d88-40aa-8442-e48b61b720b9
+.trendndaily.com	TRUE	/	FALSE	1999999999	usercookie	9c807f2c-c5bc-4439-9ac3-3afea7412702
+.trendndaily.com	TRUE	/	FALSE	1999999999	leadgennewcookie	eyJpdiI6IjJpWFFDRGVzbXc2WEtIVFV4OEZlamc9PSIsInZhbHVlIjoidWpiWkhzOTk5NHBsZVlvaFc3aTgwTGlrcC9yUUxieW1zMC8wcEQ3MUNEaVFmRk1RdGtIMC9sWTdXVXMvMnZSRCIsIm1hYyI6ImIzYzg5NTY1OTI4ODY0MGNjMDQwNTMzOTE2ZDY3MTNmNWM0M2RiZjM1NTNlYzg1YjAwNjRkMGE3NzJjNjJmYmMifQ%3D%3D
+12.trendndaily.com	TRUE	/	FALSE	1999999999	samesite	lax
+12.trendndaily.com	TRUE	/	FALSE	1999999999	nginxcanarycookie	never
+12.trendndaily.com	TRUE	/	FALSE	1999999999	nginxlastcid	zqkxq-1682
+12.trendndaily.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
