@@ -3,44 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Text Morphing Animation</title>
+    <title>Centered Video</title>
     <style>
-      @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
-
       body {
-        margin: 0px;
+        margin: 0;
         background-color: #000;
         color: #fff;
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
       }
 
-      #container {
-        position: absolute;
-        margin: auto;
-        width: 100vw;
-        height: 80pt;
-        top: 0;
-        bottom: 0;
-
-        filter: url(#threshold) blur(0.6px);
-      }
-
-      #text1,
-      #text2 {
-        position: absolute;
-        width: 100%;
-        display: inline-block;
-
-        font-family: "Raleway", sans-serif;
-        font-size: 80pt;
-
-        text-align: center;
-
-        user-select: none;
+      video {
+        max-width: 100%;
+        max-height: 100%;
       }
     </style>
   </head>
   <body>
+    <!-- Video with no autoplay -->
+    <video controls>
+      <source src="IMG_8641.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </body>
+
+    <!-- Commented out content -->
+    <!--
     <div id="container">
       <span id="text1"></span>
       <span id="text2"></span>
@@ -60,7 +51,10 @@
         </filter>
       </defs>
     </svg>
+    -->
 
+    <!-- Commented out script -->
+    <!--
     <script>
       const elts = {
         text1: document.getElementById("text1"),
@@ -139,5 +133,6 @@
 
       animate();
     </script>
+    -->
   </body>
 </html>
